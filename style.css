@@ -1,0 +1,57 @@
+.header {
+    list-style-type: none;
+    margin: -8px -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(34,37,57,255);
+    display:flex;
+    justify-content: left;
+    color: white;
+}
+
+.name {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px 20px 50px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav-element a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.nav-element a:hover {
+    color: blue;
+    background-color:rgba(20,19,41,255);
+}
+
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+}
+
+.section {
+    display: absolute;
+    margin: 0px auto;
+    text-align: center;
+    width: 25%;
+    height: 25%; 
+}
+
+.left {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    font-size: 40px;
+}
